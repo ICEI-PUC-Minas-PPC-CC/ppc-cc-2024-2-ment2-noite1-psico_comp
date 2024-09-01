@@ -3,9 +3,8 @@
 Texto **descritivo** com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que seu grupo buscará resolver/minimizar. No entanto, não é a hora de comentar sobre a abordagem a ser utilizada para resolvê-lo.
 
-O grupo pode optar ainda, por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Muitas pessoas enfrentam dificuldades em acessar suporte psicológico contínuo e eficiente, seja por causa de estigmas sociais ou por medo de falar o que sentem. Queremos que mais pessoas se sintam confortáveis durante os tratamentos e que consigam superar esses obstáculos. Nosso objetivo é criar um ambiente onde todos se sintam à vontade para buscar ajuda.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
