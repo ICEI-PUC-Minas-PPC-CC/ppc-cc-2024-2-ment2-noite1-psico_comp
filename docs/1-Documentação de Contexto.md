@@ -6,19 +6,15 @@ Texto **descritivo** com a visão geral do projeto abordado. Inclui o contexto, 
 
 Muitas pessoas enfrentam dificuldades em acessar suporte psicológico contínuo e eficiente, seja por causa de estigmas sociais ou por medo de falar o que sentem. Queremos que mais pessoas se sintam confortáveis durante os tratamentos e que consigam superar esses obstáculos. Nosso objetivo é criar um ambiente onde todos se sintam à vontade para buscar ajuda.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho que será realizado pelo grupo indicando qual é o objetivo geral que se busca atingir para solucionar/minimizar o problema apresentado acima. 
+O nosso principal objetivo e que todos se sitam a vontade para fazer uma terapia mais leve pois apenas 5,1% dos brasileiros fazem terapia queremos que mais e mais pessoas busquem por ajuda.
+Um dos nosso principal objetivo do projeto é criar um jogo que atravez dele o psicologo consiga entender se aquela pessoa pode ter anciedade, depressão ou ate mesmo algum problema emocional queremos que esse jogo tenha participação de profissionais da psicologia, garantindo que as estratégias e metodologias aplicadas sejam baseadas em teorias e práticas consagradas na área.
+O projeto visa: Promover a saúde mental de maneira acessível e sem estigmas.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
 > **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+https://amb.org.br/brasilia-urgente/apenas-5-dos-brasileiros-fazem-terapia-mas-1-a-cada-6-usam-medicamentos-mostra-pesquisa-inedita-sobre-saude-mental/#:~:text=Ainda%20assim%2C%20somente%205%2C1,com%20quest%C3%B5es%20de%20sa%C3%BAde%20mental.
 
 ## Justificativa
 
