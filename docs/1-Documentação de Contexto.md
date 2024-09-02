@@ -27,12 +27,8 @@ O grupo de trabalho pode também fazer uso de questionários, entrevistas e dado
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação ou se beneficiarão da ação extensionista, indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes/beneficiados ou quais serão os papéis dos usuários na aplicação/ação extensionista. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual.
+O nosso público e todas as pessoas que buscam um melhora mentalmente ou acrencetar algo que talvez esteja faltando algo (emocionalmente e proficionalmente). Idependete da sua idade queremos que todos sitam-se a vontade. Pois não são todos que se sentem a necessidade de pedir ajuda e outros pelo medo de serem julgado pelos os outros. Queremos alcançar todos sem exceção.
 
 > **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+https://www.unicef.org/brazil/comunicados-de-imprensa/metade-dos-adolescentes-e-jovens-sentiu-necessidade-de-pedir-ajuda-em-relacao-a-saude-mental-recentemente#:~:text=Uma%20enquete%20com%20mais%20de,pedir%20ajuda%20sobre%20sa%C3%BAde%20mental.
+https://www.correiobraziliense.com.br/ciencia-e-saude/2023/08/5114301-apenas-5-dos-brasileiros-fazem-terapia-mas-16-tomam-psicoativos.html
