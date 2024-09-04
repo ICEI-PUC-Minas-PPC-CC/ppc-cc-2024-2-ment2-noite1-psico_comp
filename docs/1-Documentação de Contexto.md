@@ -9,15 +9,20 @@ Muitas pessoas enfrentam dificuldades em acessar suporte psicológico contínuo 
 
 ## Objetivos
 
-O nosso principal objetivo e que todos se sitam a vontade para fazer uma terapia mais leve pois apenas 5,1% dos brasileiros fazem terapia queremos que mais e mais pessoas busquem por ajuda.
-Um dos nosso principal objetivo do projeto é criar um jogo que atravez dele o psicologo consiga entender se aquela pessoa pode ter anciedade, depressão ou ate mesmo algum problema emocional queremos que esse jogo tenha participação de profissionais da psicologia, garantindo que as estratégias e metodologias aplicadas sejam baseadas em teorias e práticas consagradas na área.
-O projeto visa: Promover a saúde mental de maneira acessível e sem estigmas.
+Nosso principal objetivo é criar um ambiente onde todos se sintam à vontade para buscar uma terapia mais leve e acessível. Atualmente, apenas 5,1% dos brasileiros fazem terapia, e queremos aumentar significativamente esse número. É essencial que mais pessoas busquem ajuda psicológica, promovendo o bem-estar mental e emocional de nossa população. Ao integrar a tecnologia com a psicologia, pretendemos oferecer soluções inovadoras e acessíveis, como a criação de um site que aborde esses temas ou o desenvolvimento de um jogo focado em saúde mental, facilitando assim o acesso ao suporte necessário para todos.
 
 > **Links Úteis**:
 https://amb.org.br/brasilia-urgente/apenas-5-dos-brasileiros-fazem-terapia-mas-1-a-cada-6-usam-medicamentos-mostra-pesquisa-inedita-sobre-saude-mental/#:~:text=Ainda%20assim%2C%20somente%205%2C1,com%20quest%C3%B5es%20de%20sa%C3%BAde%20mental.
 
 ## Justificativa
 
+Um dos nosso principal objetivo do projeto é criar um jogo que atravez dele o psicologo consiga entender se aquela pessoa pode ter anciedade, depressão ou ate mesmo algum problema emocional queremos que esse jogo tenha participação de profissionais da psicologia, garantindo que as estratégias e metodologias aplicadas sejam baseadas em teorias e práticas consagradas na área.
+O projeto visa: Promover a saúde mental de maneira acessível e sem estigmas.
+
+> **Links Úteis**:
+https://amb.org.br/brasilia-urgente/apenas-5-dos-brasileiros-fazem-terapia-mas-1-a-cada-6-usam-medicamentos-mostra-pesquisa-inedita-sobre-saude-mental/#:~:text=Ainda%20assim%2C%20somente%205%2C1,com%20quest%C3%B5es%20de%20sa%C3%BAde%20mental.
+
+===========================================================================================
 Descreva a importância ou a motivação para trabalhar com o tema escolhido. Indique as razões pelas quais vocês escolheram seus objetivos específicos. Aproveite para "quantificar" o problema. Utilize dados, pesquisas etc que justifiquem porque é importante resolver/minimizar o problema. 
 
 O grupo de trabalho pode também fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo, mas não se esqueça, de citar em seu texto todas as referências que forem utilizadas seguindo os padrões da ABNT e também, de incluir tais referências no documento das Referências bibliográficas.
