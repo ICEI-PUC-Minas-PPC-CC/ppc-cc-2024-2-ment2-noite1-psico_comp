@@ -1,6 +1,6 @@
 # Introdução
 
-Texto **descritivo** com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O avanço tecnológico intensificou a interseção entre tecnologia e saúde mental. Psicólogos exploram novos métodos de tratamento, enquanto a computação oferece ferramentas inovadoras. Surge a ideia de um projeto colaborativo entre psicologia e computação.
 
 ## Problema
 
