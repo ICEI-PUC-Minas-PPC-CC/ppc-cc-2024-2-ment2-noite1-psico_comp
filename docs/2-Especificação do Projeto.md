@@ -8,10 +8,10 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Exemplo:
 
-|**Camila Fiães**|           |                             | 
+|**Gabriel Júnior**|           |                             | 
 |-------------------|-----------|-----------------------------|
-<img src="https://github.com/ICEI-PUC-Minas-PPC-CC/Template-MentoringII/blob/main/docs/img/camilafiaes.png" width="200" height="200"/>|**Idade:** 38 anos. **Naturalidade:** Contagem - Minas Gerais. **Ocupação:** Caixa de Supermercado.       |**Atribuições:** gerenciar operações com clientes usando caixas registradoras. 
-|**Motivações:** Deseja organizar e ter fácil acesso aos documentos médicos do seu filho que tem asma.  |**Frustações:** dificuldade para gerenciar a vida profissional e pessoal, pois, além de trabalhar fora, quando chega em casa tem de desempenhar os papeis de mãe, esposa e dona de casa. Ainda, o seu filho de 09 anos tem asma, portanto necessita de tratamento contínuo e atenção redobrada.   |**Hobbies, história:** almeja conseguir conciliar os diferentes papéis que exerce, pois atualmente está se sentindo extremamente sobrecarregada e por isso busca métodos para otimizar o seu tempo e esforço.
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fesporteclubebahia.b-cdn.net%2Fwp-content%2Fuploads%2F2023%2F07%2Fgabriel_xavier.png&tbnid=W7XxvVhpX96svM&vet=12ahUKEwinhIfvvqqIAxVVBrkGHamwEGkQMygUegUIARCOAQ..i&imgrefurl=https%3A%2F%2Fwww.esporteclubebahia.com.br%2Felenco%2Fgabriel-xavier%2F&docid=1WI3jHrA1kRPaM&w=693&h=1080&q=GABRIEL&ved=2ahUKEwinhIfvvqqIAxVVBrkGHamwEGkQMygUegUIARCOAQ" width="200" height="20"/>|**Idade:** 24 anos.| **Naturalidade:** Sertãozinho - São Paulo.| **Ocupação:** Atleta       |**Atribuições:** Ter alto rendimendo e performar em alto nível físico. 
+|**Motivações:** Sempre foi seu sonho desempenhar esse papel profissional, conquistando ótima vida financeira e conseguindo tirar sua família da miséria.  |**Frustações:** Nesse cenário atuando profissionalmente, gera muitas pressões e desequilíbrios, mentalmente se encontra perdido, e não se enxerga o mesmo de antes.   |**Hobbies, história:** Jogar videogame e cuidar do seu corpo, indo á academia, sempre almejou atuar em um grande clube e conseguiu este feito, agora tenta buscar conquistas pessoais e troféus individuáis. 
 
 Enumere e detalhe as personas da sua solução. Para isso, se necessário, leia um pouco mais sobre o assunto nos seguintes links:
 
