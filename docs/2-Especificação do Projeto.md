@@ -10,7 +10,7 @@ Exemplo:
 
 |**Gabriel Júnior**|           |                             | 
 |-------------------|-----------|-----------------------------|
-<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fesporteclubebahia.b-cdn.net%2Fwp-content%2Fuploads%2F2023%2F07%2Fgabriel_xavier.png&tbnid=W7XxvVhpX96svM&vet=12ahUKEwinhIfvvqqIAxVVBrkGHamwEGkQMygUegUIARCOAQ..i&imgrefurl=https%3A%2F%2Fwww.esporteclubebahia.com.br%2Felenco%2Fgabriel-xavier%2F&docid=1WI3jHrA1kRPaM&w=693&h=1080&q=GABRIEL&ved=2ahUKEwinhIfvvqqIAxVVBrkGHamwEGkQMygUegUIARCOAQ" width="200" height="20"/>|**Idade:** 24 anos.| **Naturalidade:** Sertãozinho - São Paulo.| **Ocupação:** Atleta       |**Atribuições:** Ter alto rendimendo e performar em alto nível físico. 
+<img src="https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2024-2-ment2-noite1-psico_comp/blob/main/docs/img/GABRIEL.jpeg" width="400" height="200"/>|**Idade:** 24 anos.| **Naturalidade:** Sertãozinho - São Paulo.| **Ocupação:** Atleta       |**Atribuições:** Ter alto rendimendo e performar em alto nível físico. 
 |**Motivações:** Sempre foi seu sonho desempenhar esse papel profissional, conquistando ótima vida financeira e conseguindo tirar sua família da miséria.  |**Frustações:** Nesse cenário atuando profissionalmente, gera muitas pressões e desequilíbrios, mentalmente se encontra perdido, e não se enxerga o mesmo de antes.   |**Hobbies, história:** Jogar videogame e cuidar do seu corpo, indo á academia, sempre almejou atuar em um grande clube e conseguiu este feito, agora tenta buscar conquistas pessoais e troféus individuáis. 
 
 Enumere e detalhe as personas da sua solução. Para isso, se necessário, leia um pouco mais sobre o assunto nos seguintes links:
