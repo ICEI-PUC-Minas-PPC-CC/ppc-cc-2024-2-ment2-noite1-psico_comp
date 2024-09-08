@@ -37,7 +37,7 @@ Para selecionar as imagens de suas personas, utilize o site: https://this-person
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
 Exemplo:
-|EU COMO... PERSONA| QUERO/PRECISO ... FUNCIONALIDADE |PARA ... MOTIVO/VALOR                 |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Camila Fiães | Otimizar meu tempo e esforço | Conciliar os diferentes papéis que exerço. |
 |Camila Fiães | Ter acesso rápido e completo às informações sobre a doença de seu filho | Passar os detalhes para os médicos. |
