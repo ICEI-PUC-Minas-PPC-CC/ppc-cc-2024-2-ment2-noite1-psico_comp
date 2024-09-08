@@ -10,7 +10,7 @@
 - Gabriel Figueiredo
 - Kaio Alves
 - Kauan Minussi
-- <a href="docs/1-Documentação de Contexto.md"> Leonardo Morais </a>
+- <a href="https://github.com/leomorais30"> Leonardo Morais </a>
 - Maykel Tavares
 - Pedro Luz
 
