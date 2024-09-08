@@ -10,12 +10,12 @@ Exemplo:
 
 |**Gabriel Júnior**|           |                             | 
 |-------------------|-----------|-----------------------------|
-<img src="https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2024-2-ment2-noite1-psico_comp/blob/main/docs/img/GABRIEL.jpeg" width="400" height="200"/>|**Idade:** 24 anos.| **Naturalidade:** Sertãozinho - São Paulo. **Ocupação:** Atleta. <br> **Atribuições:** Ter alto rendimendo e performar em alto nível físico. 
+<img src="https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2024-2-ment2-noite1-psico_comp/blob/main/docs/img/GABRIEL.jpeg" width="400" height="200"/>|**Idade:** 24 anos.<br> **Naturalidade:** Sertãozinho - São Paulo.<br> **Ocupação:** Atleta.| **Atribuições:** Ter alto rendimendo e performar em alto nível físico. 
 |**Motivações:** Sempre foi seu sonho desempenhar esse papel profissional, conquistando ótima vida financeira e conseguindo tirar sua família da miséria.  |**Frustações:** Nesse cenário atuando profissionalmente, gera muitas pressões e desequilíbrios, mentalmente se encontra perdido, e não se enxerga o mesmo de antes.   |**Hobbies, história:** Jogar videogame e cuidar do seu corpo, indo á academia, sempre almejou atuar em um grande clube e conseguiu este feito, agora tenta buscar conquistas pessoais e troféus individuáis. 
 
 |**Sophia Fernandes**|           |                             | 
 |-------------------|-----------|-----------------------------|
-![ICEI-PUC MINAS PSICOMP](https://github.com/user-attachments/assets/225d238d-ed4c-4213-b2eb-ea4eb03bf9ae)|**Idade:** 32 anos.| **Naturalidade:** Curitiba-Paraná.| **Ocupação:** Designer Grafico
+![ICEI-PUC MINAS PSICOMP](https://github.com/user-attachments/assets/225d238d-ed4c-4213-b2eb-ea4eb03bf9ae)|**Idade:** 32 anos. <br>**Naturalidade:** Curitiba-Paraná. <br> **Ocupação:** Designer Grafico.|
 |**Motivações:** Seu sonho é oferecer soluções criativas personalizadas para pequenas e médias empresas que buscam se destacar no mercado, mas que não têm o orçamento para grandes agências..|**Frustações:** Dificuldade para aprender novas tecnologias, softwares que não correspodem suas expectativa e também tem Procrastinação e Falta de Produtividade.  .  |**Hobbies, história:** Ama tirar fotos, colecionar peças de arte e design, ter um tempo de qualidade com sua familia.Desde pequena, sempre foi fascinada por cores, formas, trabalhou em várias agências de publicidade e startups e hoje tem o objetivo de lançar seu próprio estúdio de design gráfico. 
 
 Enumere e detalhe as personas da sua solução. Para isso, se necessário, leia um pouco mais sobre o assunto nos seguintes links:
