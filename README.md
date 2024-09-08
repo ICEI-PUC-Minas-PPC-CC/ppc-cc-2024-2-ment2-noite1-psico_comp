@@ -10,7 +10,7 @@
 - Gabriel Figueiredo
 - Kaio Alves
 - Kauan Minussi
-- Leonardo Morais
+- <a href="docs/1-Documentação de Contexto.md"> Leonardo Morais </a>
 - Maykel Tavares
 - Pedro Luz
 
