@@ -10,7 +10,7 @@ Exemplo:
 
 |**Gabriel Júnior**|           |                             | 
 |-------------------|-----------|-----------------------------|
-<img src="https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2024-2-ment2-noite1-psico_comp/blob/main/docs/img/GABRIEL.jpeg" width="400" height="200"/>|**Idade:** 24 anos.<br> **Naturalidade:** Sertãozinho - São Paulo.<br> **Ocupação:** Atleta.| **Atribuições:** Ter alto rendimendo e performar em alto nível físico. 
+<img src="https://github.com/ICEI-PUC-Minas-PPC-CC/ppc-cc-2024-2-ment2-noite1-psico_comp/blob/main/docs/img/gabriel.jpeg" width="400" height="200"/>|**Idade:** 24 anos.<br> **Naturalidade:** Sertãozinho - São Paulo.<br> **Ocupação:** Atleta.| **Atribuições:** Ter alto rendimendo e performar em alto nível físico. 
 |**Motivações:** Sempre foi seu sonho desempenhar esse papel profissional, conquistando ótima vida financeira e conseguindo tirar sua família da miséria.  |**Frustações:** Nesse cenário atuando profissionalmente, gera muitas pressões e desequilíbrios, mentalmente se encontra perdido, e não se enxerga o mesmo de antes.   |**Hobbies, história:** Jogar videogame e cuidar do seu corpo, indo á academia, sempre almejou atuar em um grande clube e conseguiu este feito, agora tenta buscar conquistas pessoais e troféus individuáis. 
 
 |**Sophia Fernandes**|           |                             | 
