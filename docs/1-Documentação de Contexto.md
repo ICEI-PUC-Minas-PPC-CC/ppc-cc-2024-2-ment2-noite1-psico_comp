@@ -20,13 +20,6 @@ Nosso principal objetivo é criar um ambiente onde todos se sintam à vontade pa
 > **Links Úteis**:
 https://amb.org.br/brasilia-urgente/apenas-5-dos-brasileiros-fazem-terapia-mas-1-a-cada-6-usam-medicamentos-mostra-pesquisa-inedita-sobre-saude-mental/#:~:text=Ainda%20assim%2C%20somente%205%2C1,com%20quest%C3%B5es%20de%20sa%C3%BAde%20mental.
 
-===========================================================================================
-Descreva a importância ou a motivação para trabalhar com o tema escolhido. Indique as razões pelas quais vocês escolheram seus objetivos específicos. Aproveite para "quantificar" o problema. Utilize dados, pesquisas etc que justifiquem porque é importante resolver/minimizar o problema. 
-
-O grupo de trabalho pode também fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo, mas não se esqueça, de citar em seu texto todas as referências que forem utilizadas seguindo os padrões da ABNT e também, de incluir tais referências no documento das Referências bibliográficas.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
