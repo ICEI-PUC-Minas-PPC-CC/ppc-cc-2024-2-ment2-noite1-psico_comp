@@ -11,7 +11,7 @@
 - Kaio Alves
 - Kauan Minussi
 - <a href="https://github.com/leomorais30"> Leonardo Morais </a>
-- <a href="https://github.com/Maykel_Tavares"> Maykel Tavares </a>
+- <a href="https://github.com/MaykelTavares"> Maykel Tavares </a>
 - Pedro Luz
 
 ## Professor
