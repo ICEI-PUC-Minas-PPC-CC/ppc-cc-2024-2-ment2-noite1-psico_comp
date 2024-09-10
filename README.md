@@ -7,15 +7,16 @@
 ## Integrantes
 
 - <a href="https://github.com/ad-henrique"> Adryan Henrique </a>
-- Gabriel Figueiredo
-- Kaio Alves
-- Kauan Minussi
+- <a href="https://github.com/Gabril12"> Gabriel Figueiredo </a>
+- <a href="https://github.com/Kaio-Alves15"> Kaio Alves </a>
+- <a href="https://github.com/KauanMinussi"> Kauan Minussi </a>
 - <a href="https://github.com/leomorais30"> Leonardo Morais </a>
 - <a href="https://github.com/MaykelTavares"> Maykel Tavares </a>
-- Pedro Luz
+- <a href="https://github.com/P3droLuz"> Pedro Luz </a>
 
 ## Professor
 
+- João Benedito dos Santos Júnior
 - Luciana de Nardin
 
 # Documentação
