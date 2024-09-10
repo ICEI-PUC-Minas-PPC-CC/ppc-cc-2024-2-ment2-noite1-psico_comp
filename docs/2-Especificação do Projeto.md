@@ -27,7 +27,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |Gabriel Júnior | Sugestões de exercícios mentais ou meditações no jogo baseadas no meu comportamento emocional | Reduzir o impacto do estresse e da ansiedade no meu desempenho esportivo, sem sentir o peso do estigma social. |
 |Sophia Fernandes | Jogo interativo que identifica sinais de ansiedade ou depressão de forma lúdica | Entender melhor meu estado emocional e buscar ajuda sem medo de julgamentos. |
 |Sophia Fernandes | Ferramenta de autoavaliação emocional no jogo, com recomendações baseadas no meu comportamento | Acompanhar meu estado mental ao longo do tempo e identificar momentos em que preciso de suporte profissional. |
-|Sophia Fernandes | Receber orientações personalizadas com base no meu perfil emocional | Encontrar soluções práticas e imediatas para lidar com a procrastinação e baixa produtividade, sem depender de medicação. |
+|Sophia Fernandes | Receber orientações personalizadas de psicólogos| Para ajudá-la a encontrar inspiração pra gerar novas ideias no ambiente de trabalho. |
 
 
 
