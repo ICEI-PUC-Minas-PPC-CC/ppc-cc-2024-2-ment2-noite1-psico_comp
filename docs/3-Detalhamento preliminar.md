@@ -1,10 +1,22 @@
-# Detalhamento preliminar
+O fluxograma mostra a interface do usuário e o caminho de navegação de um aplicativo de jogo de mímica. O fluxo começa com uma tela de login e passa por várias opções de menu, como 'Jogar', 'Estatísticas' e 'Sair'. 
 
-## Esta seção deverá ser adaptada a proposta do grupo, de forma que:
-## a) Caso seu grupo vá desenvolver uma solução de software, as seções "projeto de interface" e "_user flow_" deverão ser feitas.
-## b) Caso seu grupo vá desenvolver cursos/oficinas na PUC, ou na comunidade, um "cronograma preliminar" das atividades a serem realizadas deverá ser proposto.
-## c) Caso seu grupo tenha realizado alguma pesquisa de campo, entrevistas ou reuniões com representantes do público-alvo, os registros das entrevistas/reuniões, os resultados obtidos e as conclusões encontradas deverão ser descritas aqui.
-## Caso seu trabalho demanda outro tipo de detalhamento preliminar, os artefatos a serem entregues nesta etapa deverão ser alinhados junto com seu(sua) professor(a)
+- Tela de Login: Primeira tela onde o usuário faz login.
+
+- Menu Principal:
+  - Jogar: Leva à tela principal do jogo de mímica.
+  - Estatísticas: Abre uma nova tela com informações como nome, idade, partidas jogadas, acertos, perguntas respondidas e perguntas feitas.
+  - Sair: Encerra o aplicativo e sai do jogo.
+
+- Jogar > Tela do Jogo de Mímica:
+  - Primeira rodada com quatro tipos de ilustrações diferentes para o jogo:
+    - Animal: Cachorro
+    - Objeto: Cadeira
+    - Desenho: Ben 10
+    - Profissão: Bombeiro
+
+- Tela de Encerramento da Primeira Rodada:
+  - Mostra o tempo que a primeira rodada levou.
+  - Opções, para ir para a próxima rodada ou voltar para a tela inicial do usuário.
 
 ## Projeto de Interface
 
