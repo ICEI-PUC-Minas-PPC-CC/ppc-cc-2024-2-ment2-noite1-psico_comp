@@ -1,3 +1,4 @@
+## Projeto de Interface
 O fluxograma mostra a interface do usuário e o caminho de navegação de um aplicativo de jogo de mímica. O fluxo começa com uma tela de login e passa por várias opções de menu, como 'Jogar', 'Estatísticas' e 'Sair'. 
 
 - Tela de Login: Primeira tela onde o usuário faz login.
@@ -17,14 +18,6 @@ O fluxograma mostra a interface do usuário e o caminho de navegação de um apl
 - Tela de Encerramento da Primeira Rodada:
   - Mostra o tempo que a primeira rodada levou.
   - Opções, para ir para a próxima rodada ou voltar para a tela inicial do usuário.
-
-## Projeto de Interface
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 
