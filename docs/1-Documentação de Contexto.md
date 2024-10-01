@@ -1,6 +1,6 @@
 # Introdução
 
-O avanço tecnológico intensificou a interseção entre tecnologia e saúde mental. Psicólogos exploram novos métodos de tratamento, enquanto a computação oferece ferramentas inovadoras. Surge a ideia de um projeto colaborativo entre psicologia e computação.
+O avanço tecnológico intensificou a interseção entre tecnologia e saúde mental. Psicólogos exploram novos métodos de tratamento, resultando na ideia de um projeto colaborativo entre psicologia e computação. O projeto do grupo propõe usar um jogo de mímica para desenvolver a comunicação corporal, a criatividade e a expressão de sentimentos, além de estimular elementos psicomotores, como o esquema corporal, nos jovens.
 
 ## Problema
 
