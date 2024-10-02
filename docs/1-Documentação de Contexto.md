@@ -1,21 +1,28 @@
 # Introdução
 
-Com o avanço tecnológico, a interseção entre tecnologia e saúde mental tem se intensificado, abrindo novas possibilidades para tratamentos inovadores. Psicólogos estão explorando métodos modernos, resultando na criação de projetos colaborativos entre psicologia e computação. O projeto do grupo propõe é o uso de um jogo de mímica como ferramenta para desenvolver habilidades essenciais nos jovens, como a comunicação corporal, a criatividade e a expressão de sentimentos. Além disso, o jogo visa estimular elementos psicomotores, como o esquema corporal.
+Com o avanço tecnológico, a interseção entre tecnologia e saúde mental tem se intensificado, abrindo novas possibilidades para tratamentos inovadores. Psicólogos estão explorando métodos modernos, resultando na criação de projetos colaborativos entre psicologia e computação. O projeto propõe é o uso de um jogo de mímica como ferramenta para desenvolver habilidades essenciais nas crianças, como o desenvolvimento motor até a habilidades sociais. Com a comunicação corporal, a criatividade e a expressão de sentimentos. 
 
 O jogo de mímica é uma ferramenta lúdica e educativa, projetada para proporcionar uma experiência divertida e interativa. Ele permite que os usuários se envolvam em atividades que estimulam tanto a mente quanto o corpo.
 
-Este projeto não só visa o entretenimento, mas também o desenvolvimento de habilidades psicomotoras e emocionais, contribuindo para a saúde mental dos jovens de maneira inovadora e eficaz.
+Este projeto não só visa o entretenimento, mas também o desenvolvimento de habilidades psicomotoras e emocionais, contribuindo tanto para a saúde mental quanto para o aperfeiçoamento das habilidades motoras das crianças sendo de uma inserção um pouco diferente, trazendo essa antiga brincadeira para o mundo on-line, de maneira inovadora e eficaz para a vinda de um público mais novo.
+
+//APROVADO PELA LUCIANA
 
 ## Problema
 
-Apesar dos avanços tecnológicos e das novas possibilidades de tratamentos inovadores, muitas pessoas ainda enfrentam dificuldades em acessar suporte psicológico contínuo e eficiente. Isso pode ser devido a estigmas sociais, medo de expressar sentimentos ou falta de recursos adequados. 
+O problema abordado é a dificuldade que os psicólogos enfrentam para se conectar com os pacientes e estabelecer um vínculo de confiança durante as consultas.
 
-Nosso projeto visa abordar essas barreiras ao criar um ambiente acolhedor e interativo através de um jogo de mímica. Este jogo não só proporciona entretenimento, mas também ajuda no desenvolvimento de habilidades psicomotoras e emocionais, tornando o processo terapêutico mais acessível e menos intimidante. Queremos que mais pessoas se sintam confortáveis durante os tratamentos e consigam superar os obstáculos que as impedem de buscar ajuda, promovendo assim a saúde mental de maneira inovadora e eficaz.
+//APROVADO PELA LUCIANA
 
 ## Objetivos
-Um dos nosso principal objetivo do projeto é criar um jogo que atravez dele o psicologo consiga entender se aquela pessoa pode ter anciedade, depressão ou ate mesmo algum problema emocional queremos que esse jogo tenha participação de profissionais da psicologia, garantindo que as estratégias e metodologias aplicadas sejam baseadas em teorias e práticas consagradas na área.
+ O nosso principal objetivo é criar um jogo que o psicologo consiga estimular a interação de crianças que talvez não conseguissem normalmente se desenvolver da melhor maneira possível, tornando-se assim o objetivo do nosso aplicativo.
+ Desenvolvimento motor com ferramentas mais atuais, que por ser da geração de algumas crianças e de novas, futaramente, venha a ser talvez um novo caminho para aperfeiçoamento das habilidades motoras.
+
+
+//Um dos nosso principal objetivo do projeto é criar um jogo que atravez dele o psicologo consiga entender se aquela pessoa pode ter anciedade, depressão ou ate mesmo algum problema emocional queremos que esse jogo tenha participação de profissionais da psicologia, garantindo que as estratégias e metodologias aplicadas sejam baseadas em teorias e práticas consagradas na área.
 O projeto visa: Promover a saúde mental de maneira acessível e sem estigmas.
 
+//Este projeto tem como objetivo criar um ambiente acolhedor e interativo por meio de um jogo de mímica, facilitando a aproximação entre a psicóloga e a paciente e, assim, estabelecendo um vínculo de confiança durante a consulta.
 
 
 ## Justificativa
@@ -26,8 +33,12 @@ Nosso principal objetivo é criar um ambiente onde todos se sintam à vontade pa
 
 
 ## Público-Alvo
+Crianças que ficam muito tempo em telas e que nao sentem a necessidade de fazer alguma "atividade fisica", assim, desde muito novas, não desenvolvendo completamente suas habilidades motoras ou até mesmo as lúdicas.
+Podendo ser para qualquer público que lembre dessa tal brincadeira cultural e queira jogar com seus amigos ou até com seus próprios filhos, conseguindo tornar as relações muito mais próximas até dentro de casa.
 
-O nosso público e todas as pessoas que buscam um melhora mentalmente ou acrencetar algo que talvez esteja faltando algo (emocionalmente e proficionalmente). Idependete da sua idade queremos que todos sitam-se a vontade. Pois não são todos que se sentem a necessidade de pedir ajuda e outros pelo medo de serem julgado pelos os outros. Queremos alcançar todos sem exceção.
+
+
+//O nosso público e todas as pessoas que buscam um melhora mentalmente ou acrencetar algo que talvez esteja faltando algo (emocionalmente e proficionalmente). Idependete da sua idade queremos que todos sitam-se a vontade. Pois não são todos que se sentem a necessidade de pedir ajuda e outros pelo medo de serem julgado pelos os outros. Queremos alcançar todos sem exceção.
 
 > **Links Úteis**:
 https://www.unicef.org/brazil/comunicados-de-imprensa/metade-dos-adolescentes-e-jovens-sentiu-necessidade-de-pedir-ajuda-em-relacao-a-saude-mental-recentemente#:~:text=Uma%20enquete%20com%20mais%20de,pedir%20ajuda%20sobre%20sa%C3%BAde%20mental.
