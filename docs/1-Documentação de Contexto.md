@@ -8,7 +8,9 @@ Este projeto não só visa o entretenimento, mas também o desenvolvimento de ha
 
 ## Problema
 
-Muitas pessoas enfrentam dificuldades em acessar suporte psicológico contínuo e eficiente, seja por causa de estigmas sociais ou por medo de falar o que sentem. Queremos que mais pessoas se sintam confortáveis durante os tratamentos e que consigam superar esses obstáculos. Nosso objetivo é criar um ambiente onde todos se sintam à vontade para buscar ajuda.
+Apesar dos avanços tecnológicos e das novas possibilidades de tratamentos inovadores, muitas pessoas ainda enfrentam dificuldades em acessar suporte psicológico contínuo e eficiente. Isso pode ser devido a estigmas sociais, medo de expressar sentimentos ou falta de recursos adequados. 
+
+Nosso projeto visa abordar essas barreiras ao criar um ambiente acolhedor e interativo através de um jogo de mímica. Este jogo não só proporciona entretenimento, mas também ajuda no desenvolvimento de habilidades psicomotoras e emocionais, tornando o processo terapêutico mais acessível e menos intimidante. Queremos que mais pessoas se sintam confortáveis durante os tratamentos e consigam superar os obstáculos que as impedem de buscar ajuda, promovendo assim a saúde mental de maneira inovadora e eficaz.
 
 ## Objetivos
 Um dos nosso principal objetivo do projeto é criar um jogo que atravez dele o psicologo consiga entender se aquela pessoa pode ter anciedade, depressão ou ate mesmo algum problema emocional queremos que esse jogo tenha participação de profissionais da psicologia, garantindo que as estratégias e metodologias aplicadas sejam baseadas em teorias e práticas consagradas na área.
