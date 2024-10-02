@@ -1,6 +1,10 @@
 # Introdução
 
-O avanço tecnológico intensificou a interseção entre tecnologia e saúde mental. Psicólogos exploram novos métodos de tratamento, resultando na ideia de um projeto colaborativo entre psicologia e computação. O projeto do grupo propõe usar um jogo de mímica para desenvolver a comunicação corporal, a criatividade e a expressão de sentimentos, além de estimular elementos psicomotores, como o esquema corporal, nos jovens.
+Com o avanço tecnológico, a interseção entre tecnologia e saúde mental tem se intensificado, abrindo novas possibilidades para tratamentos inovadores. Psicólogos estão explorando métodos modernos, resultando na criação de projetos colaborativos entre psicologia e computação. O projeto do grupo propõe é o uso de um jogo de mímica como ferramenta para desenvolver habilidades essenciais nos jovens, como a comunicação corporal, a criatividade e a expressão de sentimentos. Além disso, o jogo visa estimular elementos psicomotores, como o esquema corporal.
+
+O jogo de mímica é uma ferramenta lúdica e educativa, projetada para proporcionar uma experiência divertida e interativa. Ele permite que os usuários se envolvam em atividades que estimulam tanto a mente quanto o corpo.
+
+Este projeto não só visa o entretenimento, mas também o desenvolvimento de habilidades psicomotoras e emocionais, contribuindo para a saúde mental dos jovens de maneira inovadora e eficaz.
 
 ## Problema
 
