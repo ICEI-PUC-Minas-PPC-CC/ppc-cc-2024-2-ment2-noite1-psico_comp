@@ -6,13 +6,9 @@ O jogo de mímica é uma ferramenta lúdica e educativa, projetada para proporci
 
 Este projeto não só visa o entretenimento, mas também o desenvolvimento de habilidades psicomotoras e emocionais, contribuindo tanto para a saúde mental quanto para o aperfeiçoamento das habilidades motoras das crianças sendo de uma inserção um pouco diferente, trazendo essa antiga brincadeira para o mundo on-line, de maneira inovadora e eficaz para a vinda de um público mais novo.
 
-//APROVADO PELA LUCIANA
-
 ## Problema
 
 O problema abordado é a dificuldade que os psicólogos enfrentam para se conectar com os pacientes e estabelecer um vínculo de confiança durante as consultas.
-
-//APROVADO PELA LUCIANA
 
 ## Objetivos
 
@@ -22,9 +18,5 @@ O problema abordado é a dificuldade que os psicólogos enfrentam para se conect
 
 Nosso principal objetivo é criar um ambiente onde todos se sintam à vontade para buscar uma terapia mais leve e acessível. Atualmente, apenas 5,1% (dito Por Bernardo Yoneshigue) dos brasileiros fazem terapia, e queremos aumentar significativamente esse número. É essencial que mais pessoas busquem ajuda psicológica, promovendo o bem-estar mental e emocional de nossa população. Ao integrar a tecnologia com a psicologia, pretendemos oferecer soluções inovadoras e acessíveis, como a criação de um site que aborde esses temas ou o desenvolvimento de um jogo focado em saúde mental, facilitando assim o acesso ao suporte necessário para todos.
 
-
-
-
 ## Público-Alvo
 O nosso público e todas os adolescentes e crianças que tenha necessidade de apoio psicológico, que possam alcançar uma redução ao estigma psicológico decorrente em sua infância entre eles emocionalmente afetado ou que tenham dificuldade de se expressar. Independente da sua idade queremos que todos sintam-se a vontade. Pois não são todos que sentem a necessidade de pedir ajuda e outros pelo medo de serem julgado pelos os outros.
-
