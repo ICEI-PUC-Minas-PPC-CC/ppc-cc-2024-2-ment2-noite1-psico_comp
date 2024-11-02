@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Mímica</title>
     <style>
-        .button {
-            padding: 10px 20px;
+        .btn-custom {
             margin: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #600691;
-            color: white;
-            border: 2px solid #34054d;
-            border-radius: 5px;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            width: 90%;
+            max-width: 250px;
+            font-size: 1.2rem;
+            background-color: #ffd700;
+            color: #4b0082;
+            border: none;
+            border-radius: 12px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
         }
-        .button:hover {
-            background-color: #600691;
+        .btn-custom:hover {
+            background-color: #ffeb3b;
+            color: #4b0082;
+            transform: scale(1.05);
         }
         body {
             background-color: #6a0dad;
@@ -37,11 +39,7 @@
             top: 10px;
             left: 10px;
         }
-        .btn-custom:hover {
-            background-color: #ffeb3b;
-            color: #4b0082;
-            transform: scale(1.05);
-        }
+
         .image-container {
             position: absolute;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -88,29 +86,36 @@
 <body>
 
     <h1>Categorias</h1>
-    <button class="button" onclick="startGame('Animais')">Animais</button>
-    <button class="button" onclick="startGame('Profissões')">Profissões</button>
-    <button class="button" onclick="startGame('Objetos')">Objetos</button>
-    <button class="button" onclick="startGame('Desenhos')">Desenhos</button>
-    <button class="button" onclick="startGame('Aleatórios')">Aleatórios</button>
-    <button class="button" id="backButton" onclick="location.href='index.html'">Voltar </button>
+    <button class="btn-custom" onclick="startGame('Animais')">Animais</button>
+    <button class="btn-custom" onclick="startGame('Profissões')">Profissões</button>
+    <button class="btn-custom" onclick="startGame('Objetos')">Objetos</button>
+    <button class="btn-custom" onclick="startGame('Desenhos')">Desenhos</button>
+    <button class="btn-custom" onclick="startGame('Aleatórios')">Aleatórios</button>
+    <button class="btn-custom" id="backButton" onclick="location.href='index.html'">Voltar </button>
 
     <script>
+
         function startGame(categoria) {
-            const categorias = {
-                "Animais": ["Cachorro", "Gato", "Elefante", "Leão"],
-                "Profissões": ["Professor", "Médico", "Engenheiro", "Bombeiro"],
-                "Objetos": ["Lápis", "Cadeira", "Relógio", "Livro"],
-                "Desenhos": ["Homem-Aranha", "Batman", "Bob Esponja", "Mickey Mouse"],
-                "Aleatórios": ["Pizza", "Computador", "Montanha", "Arco-íris"]
-            };
+            localStorage.setItem('categoriaSelecionada', categoria);
+            // Armazena a lista completa da categoria para ser usada na próxima tela
+            localStorage.setItem('itensCategoria', JSON.stringify(categorias[categoria]));
+            window.location.href = 'terceiratela.html';
         }
+
+        const categorias = {
+            "Animais": ["Cachorro", "Gato", "Elefante", "Leão"],
+            "Profissões": ["Professor", "Médico", "Engenheiro", "Bombeiro"],
+            "Objetos": ["Lápis", "Cadeira", "Relógio", "Livro"],
+            "Desenhos": ["Homem-Aranha", "Batman", "Bob Esponja", "Mickey Mouse"],
+            "Aleatórios": ["Pizza", "Computador", "Montanha", "Arco-íris"]
+        };
 
         function goBack() {
             alert("Deseja voltar à tela inicial?");
             window.location.href = 'index.html';
         }
     </script>
+    
       <div class="image-container" id="img1">
         <img src="imgsegtela/ben10.png" alt="Ben10">
     </div>
@@ -132,5 +137,6 @@
     <div class="image-container" id="img7">
         <img src="imgsegtela/sonic.png" alt="sonic">
     </div>
+    
 </body>
 </html>
