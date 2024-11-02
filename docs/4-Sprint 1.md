@@ -1,5 +1,3 @@
 # Sprint 1
 
-Nesta seção, deverão ser incluídos todos os artefatos produzidos pertinentes à entrega referente à Sprint 1.
-
-O detalhamento do que deverá será entregue, será definido em sala em conjunto com seu(sua) professor(a).
+![Tela Cadastro](img/telaDeCadastro.png) ![Tela Inicial](img/telaInicial.png) ![Tela Categoria](img/telaDeCategoria.png) ![Tela de Jogo](img/telaDoJogo.png) ![Tela de Jogo Final](img/telaDoJogoFinal.png) ![Tela Pontuação](img/telaDePontuacao.png)
