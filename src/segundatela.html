@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Mímica</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #600691;
+            color: white;
+            border: 2px solid #34054d;
+            border-radius: 5px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .button:hover {
+            background-color: #600691;
+        }
+        body {
+            background-color: #6a0dad;
+            color: #fbff00;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        #backButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .btn-custom:hover {
+            background-color: #ffeb3b;
+            color: #4b0082;
+            transform: scale(1.05);
+        }
+        .image-container {
+            position: absolute;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-container img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .image-container:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        #img1 { top: 25%; left: 10%; }
+        #img2 { top: 35%; right: 10%; }
+        #img3 { bottom: 15%; left: 15%; }
+        #img4 { bottom: 30%; left: 70%; transform: translateX(-50%); }
+        #img5 { top: 40%; left: 30%; transform: translateX(-50%); }
+        #img6 { bottom: 10%; right: 10%; }
+        #img7 { top: 10%; right: 20%; }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 80px;
+            }
+           
+            #img1 { top: 80px; left: 5%; }
+            #img2 { top: 50%; right: 10%; }
+            #img3 { bottom: 15%; left: 10%; }
+            #img4 { bottom: 3%; left: 50%; transform: translateX(-50%); }
+            #img5 { top: 45%; left: 20%; transform: translateX(-50%); }
+            #img6 { bottom: 8%; right: 5%; }
+            #img7 { top: 10%; right: 5%; }
+        }
+
+        #reset-button {
+            font-size: 0.8rem; /* Tamanho menor do botão de voltar */
+            padding: 3px 6px; /* Menor padding para o botão */
+        }
+    </style>
+    </style>
+</head>
+<body>
+
+    <h1>Categorias</h1>
+    <button class="button" onclick="startGame('Animais')">Animais</button>
+    <button class="button" onclick="startGame('Profissões')">Profissões</button>
+    <button class="button" onclick="startGame('Objetos')">Objetos</button>
+    <button class="button" onclick="startGame('Desenhos')">Desenhos</button>
+    <button class="button" onclick="startGame('Aleatórios')">Aleatórios</button>
+    <button class="button" id="backButton" onclick="location.href='index.html'">Voltar </button>
+
+    <script>
+        function startGame(categoria) {
+            const categorias = {
+                "Animais": ["Cachorro", "Gato", "Elefante", "Leão"],
+                "Profissões": ["Professor", "Médico", "Engenheiro", "Bombeiro"],
+                "Objetos": ["Lápis", "Cadeira", "Relógio", "Livro"],
+                "Desenhos": ["Homem-Aranha", "Batman", "Bob Esponja", "Mickey Mouse"],
+                "Aleatórios": ["Pizza", "Computador", "Montanha", "Arco-íris"]
+            };
+        }
+
+        function goBack() {
+            alert("Deseja voltar à tela inicial?");
+            window.location.href = 'index.html';
+        }
+    </script>
+      <div class="image-container" id="img1">
+        <img src="imgsegtela/ben10.png" alt="Ben10">
+    </div>
+    <div class="image-container" id="img2">
+        <img src="imgsegtela/Finn e jake png.png" alt="Hora de Aventura">
+    </div>
+    <div class="image-container" id="img3">
+        <img src="imgsegtela/Flash_Png.png" alt="Flash">
+    </div>
+    <div class="image-container" id="img4">
+        <img src="imgsegtela/Mario-preview.png" alt="Mario">
+    </div>
+    <div class="image-container" id="img5">
+        <img src="imgsegtela/png-kung-fu-panda.png" alt="Kung fu panda">
+    </div>
+    <div class="image-container" id="img6">
+        <img src="imgsegtela/Relampago Mcqueen.png" alt="Carros">
+    </div>
+    <div class="image-container" id="img7">
+        <img src="imgsegtela/sonic.png" alt="sonic">
+    </div>
+</body>
+</html>
