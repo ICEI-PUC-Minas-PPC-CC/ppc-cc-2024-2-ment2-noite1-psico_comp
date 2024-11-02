@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Mímica</title>
+    <style>
+        .btn-custom {
+            margin: 10px;
+            width: 90%;
+            max-width: 250px;
+            font-size: 1.2rem;
+            background-color: #ffd700;
+            color: #4b0082;
+            border: none;
+            border-radius: 12px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #ffeb3b;
+            color: #4b0082;
+            transform: scale(1.05);
+        }
+        body {
+            background-color: #6a0dad;
+            color: #fbff00;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        #backButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .image-container {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        #timer {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Espaço entre os botões */
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="categoriaTitulo"></h1>
+    <div class="image-container">
+        <img id="img" src="" alt="Img">
+    </div>
+    <div id="timer">Tempo: <span id="time">60</span>s</div>
+    <div class="button-container">
+        <button class="btn-custom" id="acertoBtn">Acerto</button>
+        <button class="btn-custom" id="erroBtn">Erro</button>
+    </div>
+    <button class="btn-custom" id="backButton" onclick="goBack()">Voltar</button>
+
+    <script>
+
+        // Recupera o tema e os itens salvos no localStorage
+        const categoria = localStorage.getItem('categoriaSelecionada');
+        const itensCategoria = JSON.parse(localStorage.getItem('itensCategoria'));
+
+        const imagens = {
+            "Animais": ["img/animais/cachorro.jpg", "img/animais/gato.jpg", "img/animais/elefante.jpg", "img/animais/leao.jpg"],
+            "Profissões": ["img/profissões/professor.jpg", "img/profissões/medico.jpg", "img/profissões/engenheiro.jpg", "img/profissões/bombeiro.jpg"],
+            "Objetos": ["img/objetos/lapis.jpg", "img/objetos/cadeira.jpg", "img/objetos/relogio.jpg", "img/objetos/livro.jpg"],
+            "Desenhos": ["img/desenhos/homem_aranha.jpg", "img/desenhos/batman.jpg", "img/desenhos/bob_esponja.jpg", "img/desenhos/mickey_mouse.jpg"],
+            "Aleatórios": ["img/aleátorio/pizza.jpg", "img/aleátorio/computador.jpg", "img/aleátorio/montanha.jpg", "img/aleátorio/arco_iris.jpg"]
+        };
+
+        // Exibe o título e a primeira imagem
+        let itemAtual = getRandomItem();
+        document.getElementById("categoriaTitulo").textContent = categoria;
+        atualizarImagem(itemAtual);
+
+        // Função para obter um item aleatório da categoria
+        function getRandomItem() {
+            return itensCategoria[Math.floor(Math.random() * itensCategoria.length)];
+        }
+
+        // Função para atualizar a imagem na tela
+        function atualizarImagem(item) {
+            const itemIndex = itensCategoria.indexOf(item);
+            document.getElementById("img").src = imagens[categoria][itemIndex];
+        }
+
+        // Temporizador de 60 segundos
+        let time = 60;
+        let timer = setInterval(function() {
+            time--;
+            document.getElementById("time").textContent = time;
+            if (time <= 0) {
+                clearInterval(timer);
+                finalizarJogo();
+            }
+        }, 1000);
+
+        // Contador de acertos e erros
+        let acertos = 0;
+        let erros = 0;
+
+        document.getElementById("acertoBtn").addEventListener("click", function() {
+            acertos++;
+            itemAtual = getRandomItem();  // Seleciona um novo item da mesma categoria
+            atualizarImagem(itemAtual);   // Atualiza a imagem com o novo item
+        });
+
+        document.getElementById("erroBtn").addEventListener("click", function() {
+            erros++;
+        });
+
+        // Função para finalizar o jogo
+        function finalizarJogo() {
+            clearInterval(timer);
+            const nome = prompt("Digite seu nome para salvar a pontuação:");
+            alert(`Jogo finalizado! ${nome}, sua pontuação: ${acertos} acertos e ${erros} erros.`);
+            // Salva a pontuação e o nome, se necessário, em localStorage ou outro armazenamento.
+        }
+
+        function goBack() {
+            window.location.href = 'segundatela.html';
+        }
+    </script>
+</body>
+</html>
+
