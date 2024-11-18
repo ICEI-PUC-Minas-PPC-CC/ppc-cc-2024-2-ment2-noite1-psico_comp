@@ -15,3 +15,8 @@ Vale destacar que, tudo o que foi produzido de registros (fotográficos, lista d
 17.6 Melhorar a cooperação Norte-Sul, Sul-Sul e triangular regional e internacional e o acesso à ciência, tecnologia e inovação, e aumentar o compartilhamento de conhecimentos em termos mutuamente acordados, inclusive por meio de uma melhor coordenação entre os mecanismos existentes, particularmente no nível das Nações Unidas, e por meio de um mecanismo de facilitação de tecnologia global.
 
 17.7 Promover o desenvolvimento, a transferência, a disseminação e a difusão de tecnologias ambientalmente corretas para os países em desenvolvimento, em condições favoráveis, inclusive em condições concessionais e preferenciais, conforme mutuamente acordado
+
+**Justificativa**
+
+Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que envolve tecnologia acessível e gamificação alinhando à ideia de disseminar inovação para melhorar práticas educacionais e terapêuticas usando tecnologias digitais para promover um ambiente interativo entre crianças e psicólogas.
+
