@@ -21,5 +21,5 @@ Vale destacar que, tudo o que foi produzido de registros (fotográficos, lista d
 
 **Justificativa**
 
-Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que envolve tecnologia acessível e gamificação alinhando à ideia de disseminar inovação para melhorar práticas educacionais e terapêuticas usando tecnologias digitais para promover um ambiente interativo entre crianças e psicólogas.
+Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que envolve tecnologia acessível e gamificação alinhando à ideia de disseminar inovação para melhorar práticas educacionais e terapêuticas, usando tecnologias digitais para promover um ambiente interativo entre crianças e psicólogas.
 
