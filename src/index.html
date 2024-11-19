@@ -12,6 +12,7 @@
             align-items: center;
             min-height: 100vh;
             font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
         }
 
         .container {
@@ -21,12 +22,14 @@
             width: 90%;
             max-width: 400px;
             text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
 
         h1 {
             color: #ffd700;
             font-size: 2.5rem;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         form {
@@ -37,6 +40,7 @@
         label {
             color: #ffd700;
             margin-bottom: 5px;
+            font-size: 1.1rem;
         }
 
         input {
@@ -45,15 +49,23 @@
             border: none;
             background-color: #fff;
             margin-bottom: 15px;
+            font-size: 1rem;
         }
 
         button {
             background-color: #ffd700;
             color: #4b0082;
-            padding: 10px 20px;
+            padding: 12px 20px;
+            font-size: 1.2rem;
             border: none;
-            border-radius: 10px;
+            border-radius: 12px;
             cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ffeb3b;
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -84,9 +96,9 @@
             .then(response => response.json())
             .then(data => {
                 if (data.status === 'sucesso') {
-                    localStorage.setItem('jogadorId', data.id); // Armazena o ID no localStorage
+                    localStorage.setItem('jogadorId', data.id);
                     alert('Cadastro realizado com sucesso!');
-                    window.location.href = 'home.html'; // Redireciona para a tela inicial
+                    window.location.href = 'home.html';
                 } else {
                     alert('Erro ao cadastrar: ' + data.message);
                 }

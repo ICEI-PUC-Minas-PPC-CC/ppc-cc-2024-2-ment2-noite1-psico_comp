@@ -5,22 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Mímica</title>
     <style>
-        .btn-custom {
-            margin: 10px;
-            width: 90%;
-            max-width: 250px;
-            font-size: 1.2rem;
-            background-color: #ffd700;
-            color: #4b0082;
-            border: none;
-            border-radius: 12px;
-            transition: transform 0.3s ease, background-color 0.3s ease;
-        }
-        .btn-custom:hover {
-            background-color: #ffeb3b;
-            color: #4b0082;
-            transform: scale(1.05);
-        }
         body {
             background-color: #6a0dad;
             color: #fbff00;
@@ -34,51 +18,95 @@
             margin: 0;
             position: relative;
         }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .btn-custom {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #ffd700;
+            color: #4b0082;
+            border: none;
+            border-radius: 12px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-custom:hover {
+            background-color: #ffeb3b;
+            transform: scale(1.05);
+        }
+
         #backButton {
             position: absolute;
             top: 10px;
             left: 10px;
+            font-size: 0.9rem;
+            padding: 5px 10px;
+            background-color: #ff6161;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
         }
+
+        #backButton:hover {
+            background-color: #ff3b3b;
+        }
+
         #timer {
             font-size: 2rem;
             margin-bottom: 20px;
-        }
-        .image-container {
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 200px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
 <body>
     <h1>Jogo de Mímica</h1>
+    
     <div class="image-container">
         <img id="img" src="" alt="Imagem do Jogo">
     </div>
+
     <div id="timer">Tempo: <span id="time">60</span>s</div>
+
     <div class="button-container">
         <button class="btn-custom" id="acertoBtn">Acerto</button>
         <button class="btn-custom" id="erroBtn">Erro</button>
     </div>
-    <button class="btn-custom" id="backButton" onclick="goBack()">Voltar</button>
+    
+    <button id="backButton" onclick="goBack()">Voltar</button>
 
     <script>
-        // Definir categorias e imagens
         const imagens = {
             "Animais": ["img/animais/cachorro.jpg", "img/animais/gato.jpg", "img/animais/elefante.jpg", "img/animais/leao.jpg"],
-            "Profissões": ["img/profissoes/professor.jpg", "img/profissoes/medico.jpg", "img/profissoes/engenheiro.jpg", "img/profissoes/bombeiro.jpg"],
+            "Profissões": ["img/profissões/professor.jpg", "img/profissões/medico.jpg", "img/profissões/engenheiro.jpg", "img/profissões/bombeiro.jpg"],
             "Objetos": ["img/objetos/lapis.jpg", "img/objetos/cadeira.jpg", "img/objetos/relogio.jpg", "img/objetos/livro.jpg"],
             "Desenhos": ["img/desenhos/homem_aranha.jpg", "img/desenhos/batman.jpg", "img/desenhos/bob_esponja.jpg", "img/desenhos/mickey_mouse.jpg"],
             "Aleatórios": ["img/aleatorio/pizza.jpg", "img/aleatorio/computador.jpg", "img/aleatorio/montanha.jpg", "img/aleatorio/arco_iris.jpg"]
         };
 
-        // Recuperar categoria selecionada
         const categoria = localStorage.getItem('categoriaSelecionada') || "Aleatórios";
-
-        // Exibir a primeira imagem da categoria
         let itensCategoria = imagens[categoria];
         let indexAtual = 0;
 
@@ -89,44 +117,18 @@
 
         atualizarImagem();
 
-        // Atualizar pontuação no banco de dados
-        const jogadorId = localStorage.getItem('jogadorId');
-
-        function atualizarPontuacao(tipo) {
-            if (!jogadorId) {
-                alert("Nenhum jogador identificado. Volte para a tela inicial.");
-                return;
-            }
-
-            const data = new FormData();
-            data.append('tipo', tipo);
-            data.append('id', jogadorId);
-
-            fetch('atualizar_pontuacao.php', {
-                method: 'POST',
-                body: data
-            })
-            .then(response => response.text())
-            .then(data => console.log(data))
-            .catch(error => console.error('Erro:', error));
-        }
-
         document.getElementById("acertoBtn").addEventListener("click", () => {
-            atualizarPontuacao('acerto');
             atualizarImagem();
         });
 
         document.getElementById("erroBtn").addEventListener("click", () => {
-            atualizarPontuacao('erro');
             atualizarImagem();
         });
 
-        // Função para voltar para a tela inicial
         function goBack() {
-            window.location.href = 'home.html';
+            window.location.href = 'segundatela.html';
         }
 
-        // Temporizador de 60 segundos
         let time = 60;
         let timer = setInterval(() => {
             time--;
