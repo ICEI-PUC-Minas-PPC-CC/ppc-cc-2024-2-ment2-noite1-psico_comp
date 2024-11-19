@@ -20,8 +20,8 @@ Vale destacar que, tudo o que foi produzido de registros (fotográficos, lista d
 
 17.17 Incentivar e promover parcerias públicas, público-privadas e com a sociedade civil eficazes, a partir da experiência das estratégias de mobilização de recursos dessas parcerias.
 
+4.2: "Garantir que todas as meninas e meninos tenham acesso a um desenvolvimento de qualidade na primeira infância, cuidados e educação pré-escolar, de modo que eles estejam prontos para o ensino primário."
 
-**Justificativa**
 
 Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que envolve tecnologia acessível e gamificação alinhando à ideia de disseminar inovação para melhorar práticas educacionais e terapêuticas, usando tecnologias digitais para promover um ambiente interativo entre crianças e psicólogas.
 
