@@ -22,6 +22,9 @@ Vale destacar que, tudo o que foi produzido de registros (fotográficos, lista d
 
 4.2: "Garantir que todas as meninas e meninos tenham acesso a um desenvolvimento de qualidade na primeira infância, cuidados e educação pré-escolar, de modo que eles estejam prontos para o ensino primário."
 
+4.5: "Eliminar as disparidades de gênero na educação e garantir a igualdade de acesso a todos os níveis de educação e formação profissional para os mais vulneráveis, incluindo as pessoas com deficiência, povos indígenas e as crianças em situação de vulnerabilidade."
+
+A mímica, como uma atividade inclusiva, pode ser usada para garantir que todas as crianças, independentemente de suas condições, possam desenvolver habilidades de comunicação e cognitivas. Também pode ajudar a construir confiança e um vínculo afetivo, principalmente com crianças que podem estar em situações de vulnerabilidade ou que possuem necessidades especiais, auxiliando no processo de inclusão social e educacional.
 
 Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que envolve tecnologia acessível e gamificação alinhando à ideia de disseminar inovação para melhorar práticas educacionais e terapêuticas, usando tecnologias digitais para promover um ambiente interativo entre crianças e psicólogas.
 
