@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Agendar Sessão</title>
     <style>
         body {
-            background-color: #6a0dad;
+            background-color: #6a0dad; /* Roxo */
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             font-family: 'Comic Sans MS', cursive, sans-serif;
-            margin: 0;
         }
 
         .container {
@@ -22,14 +21,12 @@
             width: 90%;
             max-width: 400px;
             text-align: center;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
 
         h1 {
             color: #ffd700;
             font-size: 2.5rem;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         form {
@@ -40,71 +37,41 @@
         label {
             color: #ffd700;
             margin-bottom: 5px;
-            font-size: 1.1rem;
         }
 
-        input {
+        input, select {
             padding: 10px;
             border-radius: 5px;
             border: none;
             background-color: #fff;
             margin-bottom: 15px;
-            font-size: 1rem;
         }
 
         button {
             background-color: #ffd700;
             color: #4b0082;
-            padding: 12px 20px;
-            font-size: 1.2rem;
+            padding: 10px 20px;
             border: none;
-            border-radius: 12px;
+            border-radius: 10px;
             cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #ffeb3b;
-            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Cadastro</h1>
-        <form id="cadastroForm">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+        <h1>Agendar Sessão</h1>
+        <form action="processar_agendamento.php" method="post">
+            <label for="nome_paciente">Nome do Paciente:</label>
+            <input type="text" id="nome_paciente" name="nome_paciente" required>
             
-            <label for="data_nascimento">Data de Nascimento:</label>
-            <input type="date" id="data_nascimento" name="data_nascimento" required>
+            <label for="nome_psicologa">Nome da Psicóloga:</label>
+            <input type="text" id="nome_psicologa" name="nome_psicologa" required>
             
-            <button type="submit">Cadastrar</button>
+            <label for="data_sessao">Data da Sessão:</label>
+            <input type="date" id="data_sessao" name="data_sessao" required>
+            
+            <button type="submit">Iniciar</button>
         </form>
     </div>
-
-    <script>
-        document.getElementById('cadastroForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            const formData = new FormData(this);
-
-            fetch('processar_cadastro.php', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'sucesso') {
-                    localStorage.setItem('jogadorId', data.id);
-                    alert('Cadastro realizado com sucesso!');
-                    window.location.href = 'home.html';
-                } else {
-                    alert('Erro ao cadastrar: ' + data.message);
-                }
-            })
-            .catch(error => console.error('Erro:', error));
-        });
-    </script>
 </body>
 </html>
