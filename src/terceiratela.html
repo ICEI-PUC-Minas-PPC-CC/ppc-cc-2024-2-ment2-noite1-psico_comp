@@ -44,7 +44,7 @@
 
         .btn-custom {
             padding: 10px 20px;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             background-color: #ffd700;
             color: #4b0082;
             border: none;
@@ -79,6 +79,23 @@
             font-size: 2rem;
             margin-bottom: 20px;
         }
+
+        .emoji-btn {
+            font-size: 2rem; /* Diminuindo o tamanho das carinhas */
+            background-color: #ffd700; /* Fundo amarelo */
+            border: none;
+            cursor: pointer;
+            padding: 10px 15px; /* Reduzindo o padding para um tamanho menor */
+            border-radius: 50%; /* Tornando os botões redondos */
+        }
+
+        .emoji-btn:hover {
+            background-color: #ffeb3b; /* Efeito de hover com uma tonalidade mais clara */
+        }
+
+        #skipButton {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -91,10 +108,14 @@
     <div id="timer">Tempo: <span id="time">60</span>s</div>
 
     <div class="button-container">
-        <button class="btn-custom" id="acertoBtn">Acerto</button>
-        <button class="btn-custom" id="erroBtn">Erro</button>
+        <!-- Botões de carinha com fundo amarelo -->
+        <button class="emoji-btn" id="acertoBtn">😊</button>
+        <button class="emoji-btn" id="erroBtn">😞</button>
     </div>
-    
+
+    <!-- Botão de Pular -->
+    <button id="skipButton" class="btn-custom">Pular Imagem</button>
+
     <button id="backButton" onclick="goBack()">Voltar</button>
 
     <script>
@@ -115,12 +136,20 @@
             indexAtual = (indexAtual + 1) % itensCategoria.length;
         }
 
+        // Inicializar com a primeira imagem
         atualizarImagem();
 
+        // Função para passar para a próxima imagem
+        document.getElementById("skipButton").addEventListener("click", () => {
+            atualizarImagem();
+        });
+
+        // Função do botão de "Acerto" (emoji de carinha feliz)
         document.getElementById("acertoBtn").addEventListener("click", () => {
             atualizarImagem();
         });
 
+        // Função do botão de "Erro" (emoji de carinha triste)
         document.getElementById("erroBtn").addEventListener("click", () => {
             atualizarImagem();
         });
@@ -129,6 +158,7 @@
             window.location.href = 'segundatela.html';
         }
 
+        // Timer
         let time = 60;
         let timer = setInterval(() => {
             time--;
