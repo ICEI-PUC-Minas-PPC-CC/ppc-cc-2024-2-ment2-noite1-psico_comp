@@ -22,3 +22,11 @@ A mímica, como uma atividade inclusiva, pode ser usada para garantir que todas 
 
 Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que envolve tecnologia acessível e gamificação alinhando à ideia de disseminar inovação para melhorar práticas educacionais e terapêuticas, usando tecnologias digitais para promover um ambiente interativo entre crianças e psicólogas.
 
+
+**Tabela feita para alinhamento de tarefas** 
+![WhatsApp Image 2024-12-03 at 15 41 18](https://github.com/user-attachments/assets/523d2f71-6217-4fe1-9c10-f3f30bf2f112)
+
+**Sobre a reunião**
+
+Não consegui prints para poder anexar, pois a senhora não autorizou.
+![imagem_2024-12-03_111533380](https://github.com/user-attachments/assets/5c706b4c-32fa-45eb-9360-cc2fe8fdacc1)
