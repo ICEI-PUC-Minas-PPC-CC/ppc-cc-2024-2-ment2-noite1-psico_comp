@@ -28,5 +28,20 @@ Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que env
 
 **Sobre a reunião**
 
-Não consegui prints para poder anexar, pois a senhora não autorizou.
+Não consegui prints para poder anexar, pois a senhora não autorizou. Mas alinhamos da seguinte maneira:
+1) incluir a data da sessão e um campo para registro de observações
+
+2) registrar o animal/profissões etc... que a criança tenha errado/acertado
+
+3) sugestão: incluir o conceito de "partida" (cadastrar os dois jogadores que vão participar e então, começar a partida - por exemplo: 5 mímicas para cada um, registrando erros e acertos de cada um)
+
+4) garantir que o relatório seja completo para registrar os insights mais importantes da sessão
+
+5) pensar num mecanismo de gamificação (erros vs. acertos )
+
+6) pensar em estratégias para crianças não alfabetizadas (incluir imagens)
+
+7) como a aplicação se comporta caso a criança tenha que fazer uma mímica de um animal que ela não conhece? (sugestão: passar para a próxima imagem)
+
+8) sugestão: incluir login
 ![imagem_2024-12-03_111533380](https://github.com/user-attachments/assets/5c706b4c-32fa-45eb-9360-cc2fe8fdacc1)
