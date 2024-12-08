@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Sessão</title>
+    <style>
+        body {
+            background-color: #6a0dad;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        .container {
+            background-color: #501a8b;
+            border-radius: 15px;
+            padding: 30px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffd700;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            color: #ffd700;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #fff;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #ffd700;
+            color: #4b0082;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Agendar Sessão</h1>
+        <form id="cadastroForm">
+            <label for="nome_paciente">Nome do Paciente:</label>
+            <input type="text" id="nome_paciente" name="Paciente" required>
+            
+            <label for="nome_psicologa">Nome da Psicóloga:</label>
+            <input type="text" id="nome_psicologa" name="Psicologa" required>
+            
+            <label for="data_sessao">Data da Sessão:</label>
+            <input type="date" id="data_sessao" name="Data_da_sessao" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("cadastroForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+            try {
+                const response = await fetch("cadastroForm.php", {
+                    method: "POST",
+                    body: formData,
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    // Salvar ID do último usuário no LocalStorage
+                    localStorage.setItem("ultimoCadastroId", result.id);
+                    alert("Cadastro realizado com sucesso!");
+                    window.location.href = "home.html"; // Redireciona para a home
+                } else {
+                    alert("Erro ao cadastrar: " + result.message);
+                }
+            } catch (error) {
+                console.error("Erro:", error);
+                alert("Erro ao se conectar ao servidor.");
+            }
+        });
+    </script>
+</body>
+</html>

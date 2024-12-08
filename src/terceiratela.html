@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Mímica</title>
+    <style>
+        body {
+            background-color: #6a0dad;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #ffd700;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        #timer {
+            color: #ffd700;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .emoji-btn {
+            font-size: 2rem;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #ffd700;
+            border: none;
+            border-radius: 10px;
+            color: #4b0082;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .btn-custom {
+            background-color: #4b0082;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Mímica</h1>
+
+        <div class="image-container">
+            <img id="img" src="" alt="Imagem do Jogo">
+        </div>
+
+        <div id="timer">Tempo: <span id="time">60</span>s</div>
+
+        <div class="button-container">
+            <button class="emoji-btn" id="acertoBtn">😊</button>
+            <button class="emoji-btn" id="erroBtn">😞</button>
+        </div>
+
+        <div class="action-buttons">
+            <button id="skipButton" class="btn-custom">Pular Imagem</button>
+            <button id="backButton" class="btn-custom" onclick="window.location='/src/segundatela.html'">Finalizar Jogo</button>
+        </div>
+    </div>
+    <script>
+        // Objetos de imagens por categorias
+        const imagens = {
+            "Animais": ["img/animais/cachorro.jpg", "img/animais/gato.jpg", "img/animais/elefante.jpg", "img/animais/leão.jpg"],
+            "Profissões": ["img/profissões/professor.jpg", "img/profissões/medico.jpg", "img/profissões/engenheiro.jpg", "img/profissões/bombeiro.jpg"],
+            "Objetos": ["img/objetos/lapis.jpg", "img/objetos/cadeira.jpg", "img/objetos/relogio.jpg", "img/objetos/livro.jpg"],
+            "Desenhos": ["img/desenhos/homem_aranha.jpg", "img/desenhos/batman.jpg", "img/desenhos/bob_esponja.jpg", "img/desenhos/mickey_mouse.jpg"],
+            "Aleatórios": ["img/aleatorio/pizza.jpg", "img/aleatorio/computador.jpg", "img/aleatorio/montanha.jpg", "img/aleatorio/arco_iris.jpg"]
+        };
+
+        const categoria = localStorage.getItem('categoriaSelecionada') || "Aleatórios";
+        let itensCategoria = imagens[categoria];
+        let indexAtual = 0;
+
+        let acertos = 0;
+        let erros = 0;
+        let pulos = 0;
+
+        // Função para atualizar a imagem exibida
+        function atualizarImagem() {
+            document.getElementById("img").src = itensCategoria[indexAtual];
+            indexAtual = (indexAtual + 1) % itensCategoria.length;
+        }
+
+        atualizarImagem();
+
+        // Função para enviar os dados para o PHP
+        function enviarDados(tipo) {
+            const idJogador = localStorage.getItem('ultimoCadastroId'); // ID do jogador logado
+
+            if (!idJogador) {
+                alert("Erro: Nenhum cadastro encontrado!");
+                return;
+            }
+
+            fetch('salvarAcao.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `tipo=${tipo}&id=${idJogador}`
+            })
+            .then(response => response.text())
+            .then(data => {
+                console.log(data);  // Exibe a resposta do servidor
+            })
+            .catch(error => {
+                console.error('Erro ao enviar dados:', error);
+            });
+        }
+
+        // Event listeners para os botões de ação
+        document.getElementById("acertoBtn").addEventListener("click", () => {
+            acertos++;
+            enviarDados("acerto");
+            atualizarImagem();
+        });
+
+        document.getElementById("erroBtn").addEventListener("click", () => {
+            erros++;
+            enviarDados("erro");
+            atualizarImagem();
+        });
+
+        document.getElementById("skipButton").addEventListener("click", () => {
+            pulos++;
+            enviarDados("pulo");
+            atualizarImagem();
+        });
+
+        // Função para salvar os dados ao finalizar o jogo
+        function salvarDados() {
+            const idJogador = localStorage.getItem('ultimoCadastroId'); // ID do jogador logado
+
+            if (!idJogador) {
+                alert("Erro: Nenhum cadastro encontrado!");
+                return;
+            }
+
+            fetch('salvarAcao.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `tipo=finalizado&id=${idJogador}`
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);
+                window.location.href = 'home.html'; // Redireciona para a home após finalizar
+            })
+            .catch(error => {
+                console.error('Erro ao salvar dados:', error);
+                alert('Erro ao salvar os dados!');
+            });
+        }
+
+        // Timer para o jogo
+        let time = 60;
+        let timer = setInterval(() => {
+            time--;
+            document.getElementById("time").textContent = time;
+            if (time <= 0) {
+                clearInterval(timer);
+                salvarDados();  // Chama a função para salvar os dados quando o tempo acabar
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Mímica</title>
+    <style>
+        /* Estilo Geral */
+        body {
+            background-color: #6a0dad;
+            color: #fbff00;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        /* Botões Personalizados */
+        .btn-custom {
+            margin: 10px;
+            width: 90%;
+            max-width: 250px;
+            font-size: 1.2rem;
+            background-color: #ffd700;
+            color: #4b0082;
+            border: none;
+            border-radius: 12px;
+            padding: 12px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #ffeb3b;
+            transform: scale(1.05);
+        }
+
+        #backButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 0.9rem;
+            padding: 5px 10px;
+            background-color: #ff6161;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #backButton:hover {
+            background-color: #ff3b3b;
+        }
+
+        /* Estilo das Imagens Flutuantes */
+        .image-container {
+            position: absolute;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-container:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        /* Posições Personalizadas das Imagens */
+        #img1 { top: 25%; left: 10%; }
+        #img2 { top: 35%; right: 10%; }
+        #img3 { bottom: 15%; left: 15%; }
+        #img4 { bottom: 30%; left: 70%; transform: translateX(-50%); }
+        #img5 { top: 40%; left: 30%; transform: translateX(-50%); }
+        #img6 { bottom: 10%; right: 10%; }
+        #img7 { top: 10%; right: 20%; }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .image-container img {
+                width: 80px;
+            }
+
+            #img1 { top: 80px; left: 5%; }
+            #img2 { top: 50%; right: 10%; }
+            #img3 { bottom: 15%; left: 10%; }
+            #img4 { bottom: 3%; left: 50%; transform: translateX(-50%); }
+            #img5 { top: 45%; left: 20%; transform: translateX(-50%); }
+            #img6 { bottom: 8%; right: 5%; }
+            #img7 { top: 10%; right: 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título e Botões -->
+    <h1>Categorias</h1>
+    <button class="btn-custom" onclick="startGame('Animais')">Animais</button>
+    <button class="btn-custom" onclick="startGame('Profissões')">Profissões</button>
+    <button class="btn-custom" onclick="startGame('Objetos')">Objetos</button>
+    <button class="btn-custom" onclick="startGame('Desenhos')">Desenhos</button>
+    <button class="btn-custom" onclick="startGame('Aleatórios')">Aleatórios</button>
+    <button id="backButton" onclick="location.href='home.html'">Voltar</button>
+
+    <!-- Imagens Flutuantes -->
+    <div class="image-container" id="img1">
+        <img src="imgsegtela/ben10.png" alt="Ben10">
+    </div>
+    <div class="image-container" id="img2">
+        <img src="imgsegtela/Finn e jake png.png" alt="Hora de Aventura">
+    </div>
+    <div class="image-container" id="img3">
+        <img src="imgsegtela/Flash_Png.png" alt="Flash">
+    </div>
+    <div class="image-container" id="img4">
+        <img src="imgsegtela/Mario-preview.png" alt="Mario">
+    </div>
+    <div class="image-container" id="img5">
+        <img src="imgsegtela/png-kung-fu-panda.png" alt="Kung Fu Panda">
+    </div>
+    <div class="image-container" id="img6">
+        <img src="imgsegtela/Relampago Mcqueen.png" alt="Relâmpago McQueen">
+    </div>
+    <div class="image-container" id="img7">
+        <img src="imgsegtela/sonic.png" alt="Sonic">
+    </div>
+
+    <script>
+        const categorias = {
+            "Animais": ["Cachorro", "Gato", "Elefante", "Leão"],
+            "Profissões": ["Professor", "Médico", "Engenheiro", "Bombeiro"],
+            "Objetos": ["Lápis", "Cadeira", "Relógio", "Livro"],
+            "Desenhos": ["Homem-Aranha", "Batman", "Bob Esponja", "Mickey Mouse"],
+            "Aleatórios": ["Pizza", "Computador", "Montanha", "Arco-íris"]
+        };
+
+        function startGame(categoria) {
+            localStorage.setItem('categoriaSelecionada', categoria);
+            localStorage.setItem('itensCategoria', JSON.stringify(categorias[categoria]));
+            window.location.href = 'terceiratela.html';
+        }
+    </script>
+</body>
+</html>
