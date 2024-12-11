@@ -44,4 +44,8 @@ Não consegui prints para poder anexar, pois a senhora não autorizou. Mas alinh
 7) como a aplicação se comporta caso a criança tenha que fazer uma mímica de um animal que ela não conhece? (sugestão: passar para a próxima imagem)
 
 8) sugestão: incluir login
+   
 ![imagem_2024-12-03_111533380](https://github.com/user-attachments/assets/5c706b4c-32fa-45eb-9360-cc2fe8fdacc1)
+
+
+link de apresentação do protótipo: https://youtu.be/ZyIw8Nv-UHA
