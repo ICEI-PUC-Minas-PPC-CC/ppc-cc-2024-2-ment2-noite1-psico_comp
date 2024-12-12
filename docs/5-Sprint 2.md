@@ -2,21 +2,23 @@
 
 **Objetivo**
 
-17. Fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável
+Objetivo 16. Promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, proporcionar o acesso à justiça para todos e construir instituições eficazes, responsáveis e inclusivas em todos os níveis
 
 **Subjetivos** 
 
-17.6 Melhorar a cooperação Norte-Sul, Sul-Sul e triangular regional e internacional e o acesso à ciência, tecnologia e inovação, e aumentar o compartilhamento de conhecimentos em termos mutuamente acordados, inclusive por meio de uma melhor coordenação entre os mecanismos existentes, particularmente no nível das Nações Unidas, e por meio de um mecanismo de facilitação de tecnologia global.
+16.1 Reduzir significativamente todas as formas de violência e as taxas de mortalidade relacionada em todos os lugares
 
-17.9 Reforçar o apoio internacional para a implementação eficaz e orientada da capacitação em países em desenvolvimento, a fim de apoiar os planos nacionais para implementar todos os objetivos de desenvolvimento sustentável, inclusive por meio da cooperação Norte-Sul, Sul-Sul e triangular.
+16.2 Acabar com abuso, exploração, tráfico e todas as formas de violência e tortura contra crianças
 
-17.16 Reforçar a parceria global para o desenvolvimento sustentável, complementada por parcerias multissetoriais que mobilizem e compartilhem conhecimento, expertise, tecnologia e recursos financeiros, para apoiar a realização dos objetivos do desenvolvimento sustentável em todos os países, particularmente nos países em desenvolvimento.
+16.6 Desenvolver instituições eficazes, responsáveis e transparentes em todos os níveis
 
-17.17 Incentivar e promover parcerias públicas, público-privadas e com a sociedade civil eficazes, a partir da experiência das estratégias de mobilização de recursos dessas parcerias.
+16.7 Garantir a tomada de decisão responsiva, inclusiva, participativa e representativa em todos os níveis
 
-4.2: "Garantir que todas as meninas e meninos tenham acesso a um desenvolvimento de qualidade na primeira infância, cuidados e educação pré-escolar, de modo que eles estejam prontos para o ensino primário."
+16.10 Assegurar o acesso público à informação e proteger as liberdades fundamentais, em conformidade com a legislação nacional e os acordos internacionais
 
-4.5: "Eliminar as disparidades de gênero na educação e garantir a igualdade de acesso a todos os níveis de educação e formação profissional para os mais vulneráveis, incluindo as pessoas com deficiência, povos indígenas e as crianças em situação de vulnerabilidade."
+16.a Fortalecer as instituições nacionais relevantes, inclusive por meio da cooperação internacional, para a construção de capacidades em todos os níveis, em particular nos países em desenvolvimento, para a prevenção da violência e o combate ao terrorismo e ao crime
+
+16.b Promover e fazer cumprir leis e políticas não discriminatórias para o desenvolvimento sustentável
 
 A mímica, como uma atividade inclusiva, pode ser usada para garantir que todas as crianças, independentemente de suas condições, possam desenvolver habilidades de comunicação e cognitivas. Também pode ajudar a construir confiança e um vínculo afetivo, principalmente com crianças que podem estar em situações de vulnerabilidade ou que possuem necessidades especiais, auxiliando no processo de inclusão social e educacional.
 
@@ -28,7 +30,14 @@ Extremamente relevante o intuito de pensar no desenvolvimento de um jogo que env
 
 **Sobre a reunião**
 
-Não consegui prints para poder anexar, pois a senhora não autorizou. Mas alinhamos da seguinte maneira:
+Prints da reunião:
+
+![Reunião_Psico1](https://github.com/user-attachments/assets/d703e6ce-8e51-4c10-8b88-3dd991eed6d6)
+![Reunião_Psico2](https://github.com/user-attachments/assets/f15f53ab-a8a0-4df0-901c-abe1152fc735)
+
+https://sgapucminasbr.sharepoint.com/sites/Reuniesgerais762/_layouts/15/guestaccess.aspx?share=ERe3qQzvIMZDm1TiP8227QYBwaTs5XRlMIJZpYkwyA3R1w&e=frERul&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
 1) incluir a data da sessão e um campo para registro de observações
 
 2) registrar o animal/profissões etc... que a criança tenha errado/acertado
